@@ -50,6 +50,7 @@ table {
 
 
 * {
-    outline: 1px solid black;
+    outline: 1px solid blue;
     background: linear-gradient(red, blue);
 }
+
