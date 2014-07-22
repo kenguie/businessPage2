@@ -1,10 +1,31 @@
 
-/* The CSS reset was blocking out my use of gradient background. Why? */
+/* The CSS reset was blocking out my use of some options like <h1> Why? */
 /*-------------------------------------------------*/
 
 
 * {
-    outline: 1px solid blue;
-    background: linear-gradient(blue,white);
+    outline: 1px solid black;
+    /* height: 100%; */
+    background: -webkit-linear-gradient(blue, white) no-repeat; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white) no-repeat; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white) no-repeat; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white) no-repeat; /* Standard syntax */
 }
 
+#bizname {
+	font-size: 3em;
+	text-align: center;
+	font-family: Times New Roman, Helvetica, Times;
+	border: solid white 2px;	
+}
+
+ul {
+	height: 75px;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+	margin: 15px;
+	padding: 10px;
+}
