@@ -21,15 +21,41 @@
 
 ul {
 	height: 75px;
+	position: relative;
 }
 
 li {
 	list-style-type: none;
-	margin: 0 auto;
+	margin-top: 15px;
+	margin-left: auto;
 	display: inline-block;
 	padding: 10px;
+	position: absolute;
 }
 
 .bath {
 	margin: auto;
+}
+
+table {
+border: #000000 1px solid;
+background-color: #acd1b2;
+margin: auto;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+td {
+height: 300px;
+width: 375px;
+}
+
+td img {
+height: 245px;
+margin: 0 auto;
+display: block;
+}
+
+th {
+font-size: 2em;
 }
