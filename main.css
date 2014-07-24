@@ -97,10 +97,22 @@ th {
 }
 
 .email  {
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 25px;
-	text-align: center;
-	font-family: Garamond, serif;
+	border-radius: 3px;
+	border: 3px solid #6495ED;
+	background: linear-gradient(#6495ed,#f0f0ff);
+	height: 30px;
+	margin: 0 auto;
+	padding: 5px 10px 20px 10px;
+	font-style: italic;
+	font-weight: bold;
+	display: block;
+}
+
+.email:hover{
+	text-decoration: underline;
+}
+
+.email a {
+	background: linear-gradient(#6495ed,#f0f0ff);
+	text-decoration: none;
 }
