@@ -52,6 +52,18 @@
 	text-decoration: underline;
 }
 
+#title {
+	font-size: 2em;
+	text-align: center;
+	border: 2px solid black;
+}
+
+#placeholderdiv {
+	display: table;
+	margin: 0 auto;
+	border: double black 5px;
+}
+
 table {
 	border: 2px solid black;
 	margin: auto;
