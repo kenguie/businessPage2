@@ -424,6 +424,20 @@ th {
   padding: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------------------------------*/
 
 
@@ -479,6 +493,7 @@ body {
 table {
 	border: 2px solid black;
 	margin: auto;
+	max-width: 1200px;
 }
 
 td {
