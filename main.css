@@ -493,7 +493,7 @@ body {
 table {
 	border: 2px solid black;
 	margin: auto;
-	max-width: 1200px;
+	/* max-width: 1200px; */
 }
 
 td {
@@ -514,7 +514,7 @@ th {
 }
 
 #founders {
-	height: 350px;
+	height: 300px;
 	margin: 50px 10px 0 50px;
 	float: left;
 	border: 2px solid black;
@@ -525,12 +525,16 @@ th {
 }
 
 .aboutMJ p {
-	margin: 50px 25px 16px 25px;
+	margin: 30px 25px 0 25px;
 	text-indent: 50px;
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
-.aboutMJ p:nth-child(2) {
+.aboutMJ p:first-child {
+	margin-top: 50px;
+}
+
+.aboutMJ p:last-child {
 	clear: both;
 	text-align: center;
 }
@@ -541,7 +545,7 @@ th {
 	background: linear-gradient(#6495ed,#f0f0ff);
 	height: 30px;
 	width: 100px;
-	margin: 0 auto 50px auto;
+	margin: 20px auto 50px auto;
 	padding: 5px 10px 20px 10px;
 	font-style: italic;
 	font-weight: bold;
